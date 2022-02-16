@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Short+Stack&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Short Stack', cursive;
+}
+ 
+.header
+{
+    background-color: black;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.container
+{
+     background-color: whitesmoke;
+     width: 100vw;
+    height: 100vh;
+    
+     
+}
+
+.maininfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 15px;
+    border-radius: 10px;
+    background-color: red;
+    margin-right: 30px;
+     
+    
+}
+
+.maininfo img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.infoimg img{
+    width: 350px;
+    border-radius: 5px;
+}
+
+.Early{
+    
+    display: flex;
+    padding: 20px 100px;
+    background-color: lavender;
+    margin: 15px 15px;
+    margin-right: 30px;
+    border-radius: 10px;
+     
+     
+}
+.Early p{
+    padding: 5px 20px ;
+    
+}
+
+.org
+{
+    display: flex;
+    padding: 20px 70px;
+    background-color: orange;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 15px;
+    margin-right: 30px;
+    border-radius: 10px;
+     
+}
+
+.org img{
+    width:400px;
+    border-radius: 5px;
+}
+.org li{
+    padding: 5px 20px ;
+}
+
+.awards
+{
+    background-color: lightskyblue;
+    margin: 15px 15px;
+    border-radius: 10px;
+    padding: 20px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+
+    
+}
+
+.awards img{
+    width:400px;
+    border-radius: 5px;
+}
